@@ -1,0 +1,5 @@
+br/com/java/api/automation/CEPAPI.class
+br/com/java/api/automation/APIRegister.class
+br/com/java/api/automation/CEPURL.class
+br/com/java/api/automation/runner/CucumberRunner.class
+br/com/java/api/automation/step/definition/CEPSD.class

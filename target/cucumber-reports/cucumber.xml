@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="3.712">
+    <testcase classname="Validar um serviço de consulta de CEP" name="Validar o retorno da consulta de CEP" time="2.09">
+        <system-out>
+            <![CDATA[Dado que eu consulto o "05425-020"..........................................passed
+Então os dados de CEP "Rua Gilberto Sabino" "" "Pinheiros" "São Paulo" "SP" "3550308" "1004" "11" "7107" deverão ser validados.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validar um serviço de consulta de CEP" name="Validar o retorno da consulta de CEP 2" time="0.767">
+        <system-out>
+            <![CDATA[Dado que eu consulto o "06090-000"..........................................passed
+Então os dados de CEP "Rua João Crudo" "" "Centro" "Osasco" "SP" "3534401" "4923" "11" "6789" deverão ser validados.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validar um serviço de consulta de CEP" name="Validar o retorno da consulta de CEP 3" time="0.648">
+        <system-out>
+            <![CDATA[Dado que eu consulto o "03040-000"..........................................passed
+Então os dados de CEP "Rua Carneiro Leão" "até 599/600" "Brás" "São Paulo" "SP" "3550308" "1004" "11" "7107" deverão ser validados.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
