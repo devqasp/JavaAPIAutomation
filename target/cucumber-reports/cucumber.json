@@ -3,7 +3,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2021-05-08T04:40:14.457Z",
+        "start_timestamp": "2021-05-08T05:03:53.391Z",
         "line": 20,
         "name": "Validar o retorno da consulta de CEP",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1898472000,
+              "duration": 1998499000,
               "status": "passed"
             },
             "line": 15,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 46212000,
+              "duration": 51034000,
               "status": "passed"
             },
             "line": 16,
@@ -90,7 +90,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-08T04:40:16.569Z",
+        "start_timestamp": "2021-05-08T05:03:55.611Z",
         "line": 21,
         "name": "Validar o retorno da consulta de CEP",
         "description": "",
@@ -100,7 +100,7 @@
         "steps": [
           {
             "result": {
-              "duration": 757586000,
+              "duration": 686383000,
               "status": "passed"
             },
             "line": 15,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 1994000,
+              "duration": 4110000,
               "status": "passed"
             },
             "line": 16,
@@ -177,7 +177,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-08T04:40:17.347Z",
+        "start_timestamp": "2021-05-08T05:03:56.329Z",
         "line": 22,
         "name": "Validar o retorno da consulta de CEP",
         "description": "",
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 637446000,
+              "duration": 659850000,
               "status": "passed"
             },
             "line": 15,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 2839000,
+              "duration": 5131000,
               "status": "passed"
             },
             "line": 16,
