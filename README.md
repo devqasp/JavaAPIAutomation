@@ -4,7 +4,7 @@
 
 ## Instalação
 
-- Ter configurado no mínimo *Java 11+*
+- Ter configurado, no mínimo, o *Java 11+*
 - IDEs compatíveis: *Ex.: Eclipse / IntelliJ*
 - *Apache Maven*
 - *Apache JMeter*
