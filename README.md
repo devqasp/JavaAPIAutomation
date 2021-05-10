@@ -39,7 +39,7 @@ mvn clean verify && mvn allure:serve
 - Outro na pasta *cluecumber-reports* - Esse só precisa ser aberto em um navegador, basta clicar no *index.html*
 - E o *cucumber-reports* - Para executá-lo, abra no navegador a página *cucumber.html*
 
-- Uma maneira de ver o relatório Cucumber após a execução e publicado é, no arquivo *cucumber.properties*, na pasta *src/test/resources/*, você pode alterar os seguintes comandos:
+- Uma maneira de ver o relatório *Cucumber* após a execução e publicado é, no arquivo *cucumber.properties*, na pasta *src/test/resources/*, você pode alterar os seguintes comandos:
 ```
 cucumber.publish.enabled=true
 cucumber.publish.quiet=false
@@ -68,11 +68,11 @@ cucumber.publish.quiet=false
 - Adicionar o componente Ultimate Thread Group [Ultima Thread Group é o componente responsável pela criação da rampa de teste]
 - Adicionar o componente de Requisição HTTP
 - Inserir as informações da API no componente de Requisição de HTTP
-- Adicionar os ouvintes [Ouvintes/Listeners são os componentes resposáveis por gerar informações sobre a execução do teste de performance, como a árvore de resultados que apresenta as informações de envio e retorno da requisição/chamada realizada, como o relatório agregado que traz as informações de métricas de tempo de resposta, tps, taxa de erros, etc...]
+- Adicionar os ouvintes [Ouvintes/Listeners são os componentes resposáveis por gerar informações sobre a execução do teste de performance, como a árvore de resultados que apresenta as informações de envio e retorno da requisição / chamada realizada, como o relatório agregado que traz as informações de métricas de tempo de resposta, tps, taxa de erros, etc...]
 
 *2ª Etapa*
 - Executar um smoke teste para validar a chamada de sucesso da API e aproveitar para validar as informações de retorno da API através dos ouvintes
-- Adicionar o componente de configuração de dados CSV [Configuração dos Dados CSV é o componente responsável por carregar o arquivo de massa de dados para ser utilizado nos parâmentros de chamada da API]
+- Adicionar o componente de configuração de dados CSV [Configuração dos Dados CSV é o componente responsável por carregar o arquivo de massa de dados para ser utilizado nos parâmetros de chamada da API]
 - Criar o arquivo CSV com o campo de dados "CEP" e realizar o upload no componente de configuração de dados CSV
 - Criar a variável ${CEP} no campo de valor de CEP do caminho da chamada da API
 - Adicionar o componente de asserção de resposta [Asserções de Resposta é o componente responsável por validar o retorno da requisição por código de resposta, mensagem de resposta, ou por asserções de campos de JSON ou por XPATH, entre outros]
