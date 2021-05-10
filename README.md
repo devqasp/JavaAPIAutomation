@@ -39,7 +39,7 @@ mvn clean verify && mvn allure:serve
 - Outro na pasta *cluecumber-reports* - Esse só precisa ser aberto em um navegador, basta clicar no *index.html*
 - E o *cucumber-reports* - Para executá-lo, abra no navegador a página *cucumber.html*
 
-- Uma maneira de ver o relatório após a execução e publicado é, no arquivo cucumber.properties, na pasta *src/test/resources/*, você pode alterar os seguintes comandos:
+- Uma maneira de ver o relatório Cucumber após a execução e publicado é, no arquivo *cucumber.properties*, na pasta *src/test/resources/*, você pode alterar os seguintes comandos:
 ```
 cucumber.publish.enabled=true
 cucumber.publish.quiet=false
