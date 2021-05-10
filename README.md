@@ -15,9 +15,9 @@ Para esse desafio, foram utilizados os frameworks - *RestAssured, Cucumber e JAs
 
 ### Estrutura
 
-- br.com.java.api.automation.model - Contém uma model para cada 1 dos atributos de API - *BodyParams, Header e Response*
+- br.com.java.api.automation.model - Contém 1 model para cada 1 dos atributos de API - *BodyParams, Header e Response*
 - br.com.java.api.automation.utils - Funções utéis para tratamento de Json e Arquivos
-- br.com.java.api.automation - Esse pacote contém 1 classe responsável por mapear e validar a API CEP, 1 classe que trata e retorna a URL com um CEP definido no .feature e 1 classe que classifica / organiza as APIs mapeadas (Classe que generaliza um objeto de API) - Com ela (APIRegister.java), é possível herdar qualquer API que for nela classificada
+- br.com.java.api.automation - Esse pacote contém 1 classe responsável por mapear e validar a API CEP, 1 classe que trata e retorna a URL com um CEP definido no .feature e 1 classe que classifica / organiza as APIs mapeadas (Classe que generaliza um objeto de API) - Com ela (APIRegister.java), é possível herdar qualquer objeto de API que nela for classificada
 - br.com.java.api.automation.runner - Contém a classe que executa os testes e dispõe plugins de relatórios
 - br.com.java.api.automation.step.definition - Classe que integra o .feature e a classe de mapeamento de uma API
 - src/test/resources/ - Contém o .feature e os arquivos de propriedades do *Cucumber* e do *Allure Report*
