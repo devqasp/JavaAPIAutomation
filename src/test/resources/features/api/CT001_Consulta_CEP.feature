@@ -10,7 +10,7 @@ Funcionalidade: Validar um serviço de consulta de CEP
   - Também serão validados nesse circuito,
   as chaves e os valores presentes no retorno.
 
-  @CT_001_Valida_CEP
+  @CN_001_Valida_CEP_OK
   Esquema do Cenário: Validar o retorno da consulta de CEP
     Dado que eu consulto o "<CEP>"
     Então os dados de CEP "<LOGRADOURO>" "<COMPLEMENTO>" "<BAIRRO>" "<LOCALIDADE>" "<UF>" "<IBGE>" "<GIA>" "<DDD>" "<SIAFI>" deverão ser validados
