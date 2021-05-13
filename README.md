@@ -82,7 +82,7 @@ cucumber.publish.quiet=false
 - Configurar um cenário de execução no componente Ultimate Thread Group [Baseado no Cenário descrito no início]
 - Adicionar arquivo .csv em branco no componotente de escritor de dados simples
 - Executar o teste de performance através da GUI do Jmeter ou através de linha de código via terminal
-- Gerar relatório HTML (estilo deashboard) após a execução do teste de performamnce através da GUI do Jmeter ou através de linha de comando via terminal
+- Gerar relatório HTML (estilo deashboard) após a execução do teste de performance através da GUI do Jmeter ou através de linha de comando via terminal
 
 
 **Observação**: *Ao executar as validações de smoke test com apenas 1 usuário a API da Via Cep retornou todas as requisições, porém ao executar o cenário de teste de performance a rede/ip da máquina utilizado no teste de performance foi bloqueado apresentando o erro ERR_NETWORK_CHANGED, com isso não foi possível gerar um relatório de execução*
