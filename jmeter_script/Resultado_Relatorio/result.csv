@@ -1,0 +1,71 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1620605389944,21083,Requisição HTTP,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to viacep.com.br:443 [viacep.com.br/165.227.126.241] failed: Connection timed out: connect,jp@gc - Ultimate Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2866,0,10,10,https://viacep.com.br/ws/03276000/json/,0,0,21083
+1620605403868,7279,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,9,9,https://viacep.com.br/ws/04005910/json/,0,0,7279
+1620605399865,11282,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,9,9,https://viacep.com.br/ws/01310200/json/,0,0,11282
+1620605397879,13271,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,9,9,https://viacep.com.br/ws/09531205/json/,0,0,13271
+1620605395866,15286,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,9,9,https://viacep.com.br/ws/09080110/json/,0,0,15286
+1620605391869,19288,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,8,8,https://viacep.com.br/ws/03390010/json/,0,0,19288
+1620605405866,5296,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,6,6,https://viacep.com.br/ws/03817150/json/,0,0,5296
+1620605401868,9300,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,4,4,https://viacep.com.br/ws/03047000/json/,0,0,9300
+1620605393868,17306,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,3,3,https://viacep.com.br/ws/03360020/json/,0,0,17306
+1620605407866,3314,Requisição HTTP,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2581,0,2,2,https://viacep.com.br/ws/05338070/json/,0,0,3314
