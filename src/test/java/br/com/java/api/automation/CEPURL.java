@@ -8,7 +8,7 @@ public class CEPURL {
 		return 
 			String.format(
 				"%s/%s/",
-				CEPURL.replaceAll("-", ""),
+				this.CEPURL,
 				CEP
 			);
 		//
