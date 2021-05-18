@@ -41,13 +41,13 @@ public class CEPAPI {
 					.encoderConfig(EncoderConfig
 						.encoderConfig()
 						.encodeContentTypeAs(
-							"x-www-form-urlencoded",
-							ContentType.URLENC)
+							"application json",
+							ContentType.JSON)
 						)
 					)
-				.accept("*/*")
+				.accept("application/json")
 				.contentType(
-					"application/x-www-form-urlencoded; charset=UTF-8"
+					"application/json; charset=UTF-8"
 				);
 
 		Response response =
